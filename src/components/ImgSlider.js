@@ -41,12 +41,12 @@ const Carousel = styled(Slider)`
         &:before {
             font-size: 10px;
             color: rgb(150, 158, 171);
-            opacity: 0;
+            // opacity: 0;
         }
     }
     li.slick-active button:before {
         color: white;
-        opacity: 0;
+        // opacity: 0;
     }
     .slick-list {
         overflow: visible;
