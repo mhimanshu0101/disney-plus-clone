@@ -3,13 +3,22 @@ import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Movies from './Movies'
 import Viewers from './Viewers'
+import Footer from './Footer'
+import LatestTrending from './LatestTrending'
 
 function Home() {
     return (
         <Container>
             <ImgSlider />
             <Viewers />
+            <LatestTrending />
             <Movies />
+            <Movies />
+            <Movies />
+            <Movies />
+            <Movies />
+            <Movies />
+            <Footer />
         </Container>
     )
 }

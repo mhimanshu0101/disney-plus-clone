@@ -54,21 +54,28 @@ const Carousel = styled(Slider)`
     button {
         z-index: 1;
     }
+    .slick-slider {
+        position: relative;
+        display: block;
+        user-select: none;
+    }
 `
 const Wrap = styled.div`
     cursor: pointer;
+    margin: 1px;
+    
     img {
-        border: 5px solid transparent;
+        border: 2px solid transparent;
         width: 100%;
         height: 100%;
         border-radius: 9px;
-        box-shadow: rgb(0 0 0 / 69%) 0px 25px 30px -10px, 
-        rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+        // box-shadow: rgb(0 0 0 / 69%) 0px 25px 30px -10px, 
+        // rgb(0 0 0 / 73%) 0px 16px 10px -10px;
         transition-duration: 500ms;
         margin-top: 15px;
 
         &:hover {
-            border: 4px solid rgba(249, 249, 249, 0.7);
+            border: 2px solid rgba(249, 249, 249, 0.7);
         }
     }
     

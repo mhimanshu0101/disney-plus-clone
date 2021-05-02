@@ -140,10 +140,10 @@ const SubTitle = styled.div`
     margin-left: 26px;
 `
 const Description = styled.div`
-min-height: 20px;
-margin-left: 26px;
-line-height: 1.4;
-font-size: 20px;
-margin-top:16px;
-width: 50%;
+    min-height: 20px;
+    margin-left: 26px;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-top:16px;
+    width: 50%;
 `
